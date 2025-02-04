@@ -1,0 +1,58 @@
+{
+    "Product Overview": {
+        "PCG Version": "1.25",
+        "PCFW": "Packet Core Firewall",
+        "Description": "The Ericsson Packet Core Gateway (PCG) 1.25 with integrated Packet Core Firewall (PCFW) is a next-generation network solution designed to handle 5G core applications, with capabilities including high-performance routing, security, and user plane management.",
+        "Components": [
+            "User Plane Functionality",
+            "Security and Firewall Services",
+            "Routing and Network Interfaces",
+            "Cloud-Native Infrastructure Compatibility"
+        ]
+    },
+    "Deployment": {
+        "Requirements on Cloud Infrastructure": "Specifications for deploying PCG on NFVI, including resource allocation, scaling, and compatibility considerations.",
+        "Deploying on CNIS": "Detailed steps to deploy the Packet Core Gateway on Ericsson CNIS infrastructure, ensuring high availability and scalability.",
+        "Deploying on NFVI": "Procedures to deploy PCG on NFVI, leveraging cloud resources for optimal performance.",
+        "NFVI Tuning": "Guidelines for tuning the NFVI environment to support PCG with fault tolerance, performance optimization, and minimal latency."
+    },
+    "Interfaces": {
+        "GTP-U-Based Interfaces": "Handles user plane traffic, including encapsulation and routing of data packets.",
+        "PFCP-Based Interfaces": "Control plane protocol for managing sessions and traffic policies.",
+        "NETCONF Interface": "Used for configuration and remote management of network devices within PCG."
+    },
+    "Life Cycle Management": {
+        "Software Updates": "Procedures for rolling updates, patches, and version management.",
+        "Patches and Maintenance": "Guidelines for applying security patches and general maintenance tasks to ensure stability.",
+        "Upgrade the PCG": "Procedures to upgrade the PCG version while ensuring system stability and data integrity."
+    },
+    "Security Management": {
+        "Firewall Action Commands": "Commands for configuring and monitoring PCFW, including NAT, session management, and DDoS protection.",
+        "Threat Detection": "Mechanisms for detecting and mitigating tethering, DDoS attacks, and unauthorized access.",
+        "Certificate Management": "Managing security certificates for encrypted communications and trusted access.",
+        "Hardening": "Details on hardening the PCG for enhanced security, covering configurations, access control, and network defenses.",
+        "Configure Certificate Management": "Steps to manage certificates, including issuance, renewal, and trust management.",
+        "Security Guidelines": "Comprehensive security practices to protect PCG from potential vulnerabilities."
+    },
+    "Backup and Recovery": {
+        "Manage Backup and Restore": "Instructions to manage backups and perform restores to maintain system reliability."
+    },
+    "Feature Management": {
+        "Feature Enablement": "Guidelines to enable or disable features dynamically based on network requirements."
+    },
+    "Performance Management": {
+        "Performance Monitoring": "Setting up PM jobs to monitor KPIs and resource usage.",
+        "Diagnostic Bundles": "Tools for collecting and analyzing diagnostic data during faults or performance degradation.",
+        "New Performance Monitoring": "Additional monitoring recommendations from the latest performance management guidelines."
+    },
+    "Configuration Management": {
+        "Routing and Interfaces": "Configuration steps for setting up routing tables, interfaces, and network instances.",
+        "MPLS Configuration": "Configuring MPLS L3VPNs and traffic prioritization.",
+        "User Plane Software Configuration Overview": "Overview of software configuration for the user plane, covering essential settings and best practices."
+    },
+    "User Plane Features": {
+        "Differences between PCG and EPG 3": "Key architectural and feature differences between PCG and its predecessor, EPG 3.",
+        "CNOM (Customer Network Operations Management)": "Real-time monitoring and performance tuning via CNOM.",
+        "Content Filtering and Traffic Control": "Features for blocking, filtering, and prioritizing traffic based on policy."
+    }
+}
